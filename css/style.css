@@ -245,11 +245,11 @@ blockquote strong {
 
 
 .navbar-custom ul.nav li a {
-	font-size: 12px;
+	font-size: 14px;
 	letter-spacing: 1px;
-    color: #444;
+    color: #333;
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 900;
 }
 
 .navbar-custom.top-nav-collapse ul.nav li a {
@@ -592,7 +592,7 @@ section#intro {
 }
 
 .header-text h2 {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .header-text h2 span {
