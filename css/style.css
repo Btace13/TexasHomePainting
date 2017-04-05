@@ -189,7 +189,10 @@ blockquote strong {
   font-weight: 700;
 }
 
-
+.logoo {
+	background: url("img/logo.png");
+	background-size: cover;
+}
 
 
 .light {
