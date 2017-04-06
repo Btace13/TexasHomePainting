@@ -195,10 +195,6 @@ blockquote strong {
   font-weight: 700;
 }
 
-.logoo {
-	background: url("img/logo.png");
-	background-size: cover;
-}
 
 
 .light {
@@ -212,11 +208,12 @@ blockquote strong {
 }
 
 .site-logo a.brand {
-	color: #111;
-	text-transform: uppercase;
-	font-size: 20px;
-	font-family: 'Kaushan Script', cursive;
-	font-weight: 900;	
+    color: #444;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-style: italic;
 }
 
 
@@ -233,6 +230,7 @@ blockquote strong {
 
 .navbar {
     margin-bottom: 0;
+    border-top: 10px solid #34495e;
 }
 
 .navbar-brand {
@@ -370,6 +368,8 @@ hr.bold {
 	margin: 0 auto;
 	margin-bottom: 10px;
 }
+
+
 
 /* margins */
 .marginbot-0{margin-bottom:0 !important;}
@@ -963,7 +963,7 @@ footer .social-widget ul.team-social li a {
 }
 
 .testimonialslide ul li blockquote {
-	color: #fff;
+	color: #fff;s
 	border-left: none;
 }
 
@@ -979,7 +979,8 @@ footer .social-widget ul.team-social li a {
 
 /* --- button --- */
 .btn {
-	border-radius: 2px;
+	border: 1px solid #c0392b;
+	border-radius: 10px;
 	position: relative;
 	display: inline-block;
 	outline: none;
@@ -989,7 +990,7 @@ footer .social-widget ul.team-social li a {
 	letter-spacing: 1px;
 	font-weight: 400;	
 	text-shadow: 0 0 1px rgba(255,255,255,0.3);
-	font-size: 14px;
+	font-size: 15px;
 }
 
 .btn.btn-noradius {
