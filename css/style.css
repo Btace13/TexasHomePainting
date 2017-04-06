@@ -246,6 +246,7 @@ blockquote strong {
 
 .nav.navbar-nav {
     background-color: rgba(255,255,255,.6);
+    border-top: 10px solid #c0392b;
 }
 
 .navbar-custom.top-nav-collapse .nav.navbar-nav {
@@ -254,11 +255,12 @@ blockquote strong {
 
 
 .navbar-custom ul.nav li a {
-	font-size: 14px;
-	letter-spacing: 1px;
-    color: #333;
-	text-transform: uppercase;
-	font-weight: 900;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: italic;
 }
 
 .navbar-custom.top-nav-collapse ul.nav li a {
